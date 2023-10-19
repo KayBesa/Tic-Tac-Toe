@@ -50,6 +50,20 @@ h1 {
     align-items: center;
     justify-content: center;
     color: greenyellow;
-    border: solid 0.5px;
+    border: solid 2.5px;
     border-color: greenyellow;
+}
+
+button {
+    padding: 5px 15px;
+    background-color: greenyellow;
+    color: darkslategrey;
+    font-weight: 800;
+    border-radius: 25%;
+    transition: 200ms transform;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: translateY(3px);
 }
