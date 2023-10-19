@@ -35,3 +35,21 @@ h1 {
     font-size: 50px;
     text-transform: uppercase;
 }
+
+.gameBoard {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    margin-top: 30px;
+}
+
+.cell {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: greenyellow;
+    border: solid 0.5px;
+    border-color: greenyellow;
+}
