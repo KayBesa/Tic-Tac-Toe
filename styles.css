@@ -5,6 +5,33 @@
     Date: October 19th, 2023
 **/
 
+:root {
+    /* Shade of winning cells when set of three is formed on board*/
+    --winnerCells: #8a2be2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: darkslategray;
+    font-family: "Audiowide", sans-serif;
+    color: greenyellow;
+}
+
+.container {
+    padding: 40px;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
 }
