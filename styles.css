@@ -1,7 +1,7 @@
 /**
     Name: Kasonde Besa
     Script: styles.css
-    Description: Styling for imple WebApp of Tic-Tac-Toe
+    Description: Styling for simple WebApp of Tic-Tac-Toe
     Date: October 19th, 2023
 **/
 
@@ -52,6 +52,7 @@ h1 {
     color: greenyellow;
     border: solid 2.5px;
     border-color: greenyellow;
+    font-size: 90px;
 }
 
 button {
